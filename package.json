@@ -1,0 +1,30 @@
+{
+  "name": "cigithubactions",
+  "version": "1.0.0",
+  "description": "Realiza una prueba basica de CI con GithubActions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecastrot/cigithubactions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecastrot/cigithubactions/issues"
+  },
+  "homepage": "https://github.com/ecastrot/cigithubactions#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "json",
+      "html"
+    ]
+  }
+}
